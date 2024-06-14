@@ -1,0 +1,2263 @@
+﻿<Page x:Class="WPFUIKitProfessional.Pages.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFUIKitProfessional.Pages"
+          xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="Home" FontFamily="Poppins">
+
+    <Page.Resources>
+        <!-- Define a reusable DropShadowEffect -->
+        <DropShadowEffect x:Key="ButtonDropShadowEffect"
+                          Color="Gray"
+                          Direction="0"
+                          BlurRadius="50"
+                          ShadowDepth="1"
+                          Opacity="0.2" />
+
+        <!-- Define a reusable ControlTemplate for the buttons -->
+        <ControlTemplate x:Key="ButtonTemplate" TargetType="{x:Type Button}">
+            <Border Name="ContentBorder"
+                    Background="#00FFFFFF"
+                    CornerRadius="30">
+                <Grid>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Tag, RelativeSource={RelativeSource TemplatedParent}}"
+                               VerticalAlignment="Center"
+                               Margin="5"
+                               HorizontalAlignment="Center" />
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="UIElement.IsMouseOver" Value="True">
+                    <Setter TargetName="ContentBorder" Property="Background" Value="#60CDFF" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <!-- Define a reusable Style for the buttons -->
+        <Style x:Key="ButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Template" Value="{StaticResource ButtonTemplate}" />
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Width" Value="50" />
+            <Setter Property="Background" Value="{x:Null}" />
+            <Setter Property="BorderBrush" Value="{x:Null}" />
+        </Style>
+
+
+
+   
+    </Page.Resources>
+
+    <Border CornerRadius="8" Background="#FFD3F9D8">
+        <Grid>
+
+            <Label Content="Home" FontSize="50" FontWeight="Bold" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <StackPanel>
+
+
+
+                <Grid VerticalAlignment="Top" Height="230" Margin="20,20,20,0">
+              
+
+                    <Border Background="#EBFBEE" CornerRadius="30,30,30,30">
+                        <Border.BitmapEffect>
+                            <DropShadowBitmapEffect
+                       ShadowDepth="1"
+                       Direction="0"
+                       Color="#D3F9D8"
+                       Softness="0.8"/>
+                        </Border.BitmapEffect>
+
+                        <Grid>
+                            <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25"
+                             	Name="q23" Content="Turn all"
+                                Click="Button23_Click" Margin="0,20,20,0" FontFamily="Montserrat" FontWeight="Bold" FontSize="14" Foreground="#FF2A8A3D" Background="#FFD3F9D8"
+                                
+                                ></Button>
+
+                            <StackPanel>
+                                <Label Content="OPTIMATION SYSTEM" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="36" FontFamily="Montserrat" Foreground="#FF2A8A3D" FontWeight="Bold"/>
+                                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20">
+                                   
+
+                                    <Border
+			Name="q1"
+			CornerRadius="30,30,30,30"
+			Background="#FFFFFFFF"
+			VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+					Color="Gray"
+					Direction="0"
+					BlurRadius="50"
+					ShadowDepth="1"
+					Opacity="0.2" />
+                                        </UIElement.Effect>
+                                       
+                                        <Button
+				Name="Button1"
+				Height="50"
+				Width="50"
+				Background="{x:Null}"
+				BorderBrush="{x:Null}"
+				Click="Button1_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+						TargetType="{x:Type Button}">
+                                                    <Setter
+							Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+									TargetType="{x:Type Button}">
+                                                                <Border
+										Name="ContentBorder"
+										Background="#00FFFFFF"
+										CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+												Orientation="Horizontal"
+												HorizontalAlignment="Center"
+												VerticalAlignment="Center">
+                                                                            <Image
+													Source="\Assets\Home\V1\1.png"
+													VerticalAlignment="Center"
+													HorizontalAlignment="Center"
+													Stretch="Fill"
+													RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+											Property="UIElement.IsMouseOver"
+											Value="True">
+                                                                        <Setter
+												TargetName="ContentBorder"
+												Property="Background"
+												Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+                                    <Border
+		Name="q2"
+		CornerRadius="30"
+		Background="#FFFFFFFF"
+		HorizontalAlignment="Left"
+		VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+				Color="Gray"
+				Direction="0"
+				BlurRadius="50"
+				ShadowDepth="1"
+				Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+			Name="Button2"
+			Height="50"
+			Width="50"
+			Background="{x:Null}"
+			BorderBrush="{x:Null}"
+			Click="Button2_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+					TargetType="{x:Type Button}">
+                                                    <Setter
+						Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+								TargetType="{x:Type Button}">
+                                                                <Border
+									Name="ContentBorder"
+									Background="#00FFFFFF"
+									CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+											Orientation="Horizontal"
+											HorizontalAlignment="Center"
+											VerticalAlignment="Center">
+                                                                            <Image
+												Source="\Assets\Home\V1\2.png"
+												VerticalAlignment="Center"
+												HorizontalAlignment="Center"
+												Stretch="Fill"
+												RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+										Property="UIElement.IsMouseOver"
+										Value="True">
+                                                                        <Setter
+											TargetName="ContentBorder"
+											Property="Background"
+											Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+                                    <Border
+	Name="q3"
+	CornerRadius="30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button3"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button3_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+                                CornerRadius="30,30,30,30"
+								Background="#00FFFFFF">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\3.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+                                    <Border
+	Name="q4"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center" CornerRadius="30,30,30,30">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button4"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button4_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+                                                           	CornerRadius="30,30,30,30">
+
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\4.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+                                    <Border
+		Name="q5"
+		CornerRadius="30,30,30,30"
+		Background="#FFFFFFFF"
+		HorizontalAlignment="Left"
+		VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+				Color="Gray"
+				Direction="0"
+				BlurRadius="50"
+				ShadowDepth="1"
+				Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+			Name="Button5"
+			Height="50"
+			Width="50"
+			Background="{x:Null}"
+			BorderBrush="{x:Null}"
+			Click="Button5_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+					TargetType="{x:Type Button}">
+                                                    <Setter
+						Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+								TargetType="{x:Type Button}">
+                                                                <Border
+									Name="ContentBorder"
+                                                           	CornerRadius="30,30,30,30"
+									Background="#00FFFFFF">
+                                                                    <Grid>
+                                                                        <StackPanel
+											Orientation="Horizontal"
+											HorizontalAlignment="Center"
+											VerticalAlignment="Center">
+                                                                            <Image
+												Source="\Assets\Home\V1\5.png"
+												VerticalAlignment="Center"
+												HorizontalAlignment="Center"
+												Stretch="Fill"
+												RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+										Property="UIElement.IsMouseOver"
+										Value="True">
+                                                                        <Setter
+											TargetName="ContentBorder"
+											Property="Background"
+											Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+                                    <Border
+	Name="q6"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button6"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button6_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+									Source="\Assets\Home\V1\6.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q7"
+									CornerRadius="30,30,30,30"
+
+                            Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button7"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button7_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+																CornerRadius="30,30,30,30">
+
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\7.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q8"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center" Width="50">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button8"
+		Height="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button8_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\8.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q9"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button9"
+		Height="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button9_Click" Width="50">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\9.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q10"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button10"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button10_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\10.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q11"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button11"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button11_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+							CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\11.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q12"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button12"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button12_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+							CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\12.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q13"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button13"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button13_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\13.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q14"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button14"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button14_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+							CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\14.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q15"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button15"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button15_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\15.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q16"
+CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button16"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button16_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\17.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q17"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button17"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button17_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\18.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+
+
+                                    <Border
+	Name="q18"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center"
+                            CornerRadius="30,30,30,30">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button18"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button18_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\19.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q19"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button19"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button19_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\20.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q20"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button20"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button20_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\21.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q21"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button21"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button21_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\22.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q22"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button22"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button22_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\23.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q26"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button26"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button26_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\26.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q27"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button27"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button27_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\27.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q28"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button28"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button28_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\28.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q29"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button29"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button29_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\29.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q30"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button30"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button30_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\30.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q31"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button31"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button31_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\31.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+                                    <Border
+	Name="q32"
+	CornerRadius="30,30,30,30"
+	Background="#FFFFFFFF"
+	HorizontalAlignment="Left"
+	VerticalAlignment="Center">
+                                        <UIElement.Effect>
+                                            <DropShadowEffect
+			Color="Gray"
+			Direction="0"
+			BlurRadius="50"
+			ShadowDepth="1"
+			Opacity="0.2" />
+                                        </UIElement.Effect>
+                                        <Button
+		Name="Button32"
+		Height="50"
+		Width="50"
+		Background="{x:Null}"
+		BorderBrush="{x:Null}"
+		Click="Button32_Click">
+                                            <FrameworkElement.Style>
+                                                <Style
+				TargetType="{x:Type Button}">
+                                                    <Setter
+					Property="Template">
+                                                        <Setter.Value>
+                                                            <ControlTemplate
+							TargetType="{x:Type Button}">
+                                                                <Border
+								Name="ContentBorder"
+								Background="#00FFFFFF"
+								CornerRadius="30,30,30,30">
+                                                                    <Grid>
+                                                                        <StackPanel
+										Orientation="Horizontal"
+										HorizontalAlignment="Center"
+										VerticalAlignment="Center">
+                                                                            <Image
+											Source="\Assets\Home\V1\32.png"
+											VerticalAlignment="Center"
+											HorizontalAlignment="Center"
+											Stretch="Fill"
+											RenderTransformOrigin="0.5,0.5" />
+                                                                        </StackPanel>
+                                                                    </Grid>
+                                                                </Border>
+                                                                <ControlTemplate.Triggers>
+                                                                    <Trigger
+									Property="UIElement.IsMouseOver"
+									Value="True">
+                                                                        <Setter
+										TargetName="ContentBorder"
+										Property="Background"
+										Value="#60CDFF" />
+                                                                    </Trigger>
+                                                                </ControlTemplate.Triggers>
+                                                            </ControlTemplate>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Style>
+                                            </FrameworkElement.Style>
+                                        </Button>
+                                    </Border>
+
+
+
+
+
+
+                                </WrapPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button
+   	Name="q24" Content="White Theme" Width="200" FontFamily="Montserrat" FontSize="20"
+Click="Button24_Click" Height="30" Margin="0,0,10,0" FontWeight="Bold" Foreground="#FFD3F9D8" BorderBrush="{x:Null}" Background="#FF3DBE57"
+
+/>
+
+
+                                    <Button
+                  	Name="q25"
+                  Click="Button25_Click"
+                  Content="Dark Theme" Width="200" FontFamily="Montserrat" FontSize="20" Margin="10,0,0,0" FontWeight="Bold" Foreground="#FFD3F9D8" BorderBrush="{x:Null}" Background="#FF1F612D"
+                  />
+                                </StackPanel>
+
+                            </StackPanel>
+
+
+
+
+
+                        </Grid>
+
+
+
+
+
+
+
+
+                    </Border>
+
+
+
+
+
+
+                </Grid>
+
+                <Grid Margin="0,20,0,0">
+
+
+                    <Border Margin="20,0,20,0" CornerRadius="30,30,30,30" Background="#EBFBEE">
+                        <Border.BitmapEffect>
+                            <DropShadowBitmapEffect
+ShadowDepth="1"
+Direction="0"
+Color="#D3F9D8"
+Softness="0.8"/>
+                        </Border.BitmapEffect>
+
+
+                        <Grid>
+                            <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="25"
+   	Name="Bord19" Content="Turn all"
+Click="Butt19_Click" Margin="0,20,20,0" FontFamily="Montserrat" FontWeight="Bold" FontSize="14" Foreground="#FF2A8A3D" Background="#FFD3F9D8"
+
+></Button>
+
+                            <StackPanel>
+
+                                <Label Content="Apps Windows" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" FontSize="36" FontFamily="Montserrat" Foreground="#FF2A8A3D" FontWeight="Bold"/>
+
+
+                                <WrapPanel Margin="5,5,0,10" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+
+                                    <Border Name="Border_Microsoft_BingWeather" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon1" Style="{StaticResource ButtonStyle}" Click="Buon1_Click" Tag="/Assets/Home/V2/Frame 3467076.png"/>
+                                    </Border>
+                                    <Border Name="Border2" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon2" Style="{StaticResource ButtonStyle}" Click="Buon2_Click" Tag="/Assets/Home/V2/Frame 1.png"/>
+                                    </Border>
+                                    <Border Name="Border3" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon3" Style="{StaticResource ButtonStyle}" Click="Buon3_Click" Tag="/Assets/Home/V2/Frame 2.png"/>
+                                    </Border>
+                                    <Border Name="Border4" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon4" Style="{StaticResource ButtonStyle}" Click="Buon4_Click" Tag="/Assets/Home/V2/Frame 3.png"/>
+                                    </Border>
+                                    <Border Name="Border5" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon5" Style="{StaticResource ButtonStyle}" Click="Buon5_Click" Tag="/Assets/Home/V2/Frame 4.png"/>
+                                    </Border>
+                                    <Border Name="Border6" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon6" Style="{StaticResource ButtonStyle}" Click="Buon6_Click" Tag="/Assets/Home/V2/Frame 5.png"/>
+                                    </Border>
+                                    <Border Name="Border7" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon7" Style="{StaticResource ButtonStyle}" Click="Buon7_Click" Tag="/Assets/Home/V2/Frame 6.png"/>
+                                    </Border>
+                                    <Border Name="Border8" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon8" Style="{StaticResource ButtonStyle}" Click="Buon8_Click" Tag="/Assets/Home/V2/Frame 11.png"/>
+                                    </Border>
+                                    <Border Name="Border9" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon9" Style="{StaticResource ButtonStyle}" Click="Buon9_Click" Tag="/Assets/Home/V2/Frame 12.png"/>
+                                    </Border>
+                                    <Border Name="Border10" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon10" Style="{StaticResource ButtonStyle}" Click="Buon10_Click" Tag="/Assets/Home/V2/Frame 13.png"/>
+                                    </Border>
+                                    <Border Name="Border11" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon11" Style="{StaticResource ButtonStyle}" Click="Buon11_Click" Tag="/Assets/Home/V2/Frame 14.png"/>
+                                    </Border>
+                                    <Border Name="Border12" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon12" Style="{StaticResource ButtonStyle}" Click="Buon12_Click" Tag="/Assets/Home/V2/Frame 15.png"/>
+                                    </Border>
+                                    <Border Name="Border13" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon13" Style="{StaticResource ButtonStyle}" Click="Buon13_Click" Tag="/Assets/Home/V2/Frame 16.png" Content="Spotify"/>
+                                    </Border>
+                                    <Border Name="Border14" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon14" Style="{StaticResource ButtonStyle}" Click="Buon14_Click" Tag="/Assets/Home/V2/Frame 17.png" Content="Netflix"/>
+                                    </Border>
+                                    <Border Name="Border15" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Buon15" Style="{StaticResource ButtonStyle}" Click="Buon15_Click" Tag="/Assets/Home/V2/Frame 18.png" Content="Cortana"/>
+                                    </Border>
+                                    <Border Name="Border_Microsoft_BingWeather1" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto1" Style="{StaticResource ButtonStyle}" Click="Butto1_Click" Tag="/Assets/Home/V3/Group 52.png"/>
+                                    </Border>
+                                    <Border Name="Borde2" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto2" Style="{StaticResource ButtonStyle}" Click="Butto2_Click" Tag="/Assets/Home/V3/Group 13.png"/>
+                                    </Border>
+                                    <Border Name="Borde3" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto3" Style="{StaticResource ButtonStyle}" Click="Butto3_Click" Tag="/Assets/Home/V2/Frame 1.png"/>
+                                    </Border>
+                                    <Border Name="Bordo4" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto4" Style="{StaticResource ButtonStyle}" Click="Butto4_Click" Tag="/Assets/Home/V3/Frame 2.png"/>
+                                    </Border>
+                                    <Border Name="Borde5" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto5" Style="{StaticResource ButtonStyle}" Click="Butto5_Click" Tag="/Assets/Home/V3/Group 43.png"/>
+                                    </Border>
+                                    <Border Name="Borde6" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto6" Style="{StaticResource ButtonStyle}" Click="Butto6_Click" Tag="/Assets/Home/V3/Group 26.png"/>
+                                    </Border>
+                                    <Border Name="Borde7" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2" />
+                                        </Border.Effect>
+                                        <Button Name="Butto7" Style="{StaticResource ButtonStyle}" Click="Butto7_Click" Tag="/Assets/Home/V3/Group 30.png" Height="50" Width="50" Background="{x:Null}" BorderBrush="{x:Null}" />
+                                    </Border>
+                                    <Border Name="Borde8" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2" />
+                                        </Border.Effect>
+                                        <Button Name="Butto8" Style="{StaticResource ButtonStyle}" Click="Butto8_Click" Tag="/Assets/Home/V3/Group 41.png" Height="50" Width="50" Background="{x:Null}" BorderBrush="{x:Null}" />
+                                    </Border>
+                                    <Border Name="Borde9" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2" />
+                                        </Border.Effect>
+                                        <Button Name="Butto9" Style="{StaticResource ButtonStyle}" Click="Butto9_Click" Tag="/Assets/Home/V3/Frame 3.png" Height="50" Width="50" Background="{x:Null}" BorderBrush="{x:Null}" />
+                                    </Border>
+                                    <Border Name="Borde10" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto10" Style="{StaticResource ButtonStyle}" Click="Butto10_Click" Tag="/Assets/Home/V3/Group 10.png" />
+                                    </Border>
+                                    <Border Name="Borde11" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto11" Style="{StaticResource ButtonStyle}" Click="Butto11_Click" Tag="/Assets/Home/V3/Group 16.png" />
+                                    </Border>
+                                    <Border Name="Borde12" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto12" Style="{StaticResource ButtonStyle}" Click="Butto12_Click" Tag="/Assets/Home/V3/Group 56.png" />
+                                    </Border>
+                                    <Border Name="Borde13" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto13" Style="{StaticResource ButtonStyle}" Click="Butto13_Click" Tag="/Assets/Home/V3/Group 40.png" />
+                                    </Border>
+                                    <Border Name="Borde14" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto14" Style="{StaticResource ButtonStyle}" Click="Butto14_Click" Tag="/Assets/Home/V3/Group 58.png" />
+                                    </Border>
+                                    <Border Name="Borde15" CornerRadius="30" Background="#FFFFFFFF" Height="50">
+                                        <Border.Effect>
+                                            <StaticResource ResourceKey="ButtonDropShadowEffect" />
+                                        </Border.Effect>
+                                        <Button Name="Butto15" Style="{StaticResource ButtonStyle}" Click="Butto15_Click" Tag="/Assets/Home/V3/Frame 5.png" />
+                                    </Border>
+                                    <Border Name="Borde16" CornerRadius="30" Background="#FFFFFFFF" Margin="0,0,0,10">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2" />
+                                        </Border.Effect>
+                                        <Button Name="Butto16" Style="{StaticResource ButtonStyle}" Click="Butto16_Click" Tag="/Assets/Home/V3/Group 42.png" />
+                                    </Border>
+                                    <Border Name="Borde17" CornerRadius="30" Background="#FFFFFFFF" Margin="0,0,0,10">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2" />
+                                        </Border.Effect>
+                                        <Button Name="Butto17" Style="{StaticResource ButtonStyle}" Click="Butto17_Click" Tag="/Assets/Home/V3/Group 47.png" />
+                                    </Border>
+                                    <Border Name="Borde18" CornerRadius="30" Background="#FFFFFFFF" Margin="0,0,0,10">
+                                        <Border.Effect>
+                                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2" />
+                                        </Border.Effect>
+                                        <Button Name="Butto18" Style="{StaticResource ButtonStyle}" Click="Butto18_Click" Tag="/Assets/Home/V3/Group 25.png" />
+                                    </Border>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </WrapPanel>
+
+                            </StackPanel>
+                        </Grid>
+                       
+                        
+                      
+                    </Border>
+               
+
+                </Grid>
+
+
+
+
+            </StackPanel>
+
+
+
+
+        </Grid>
+    </Border>
+</Page>
