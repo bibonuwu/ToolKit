@@ -2250,7 +2250,105 @@ Click="Butt19_Click" Margin="0,20,20,0" FontFamily="Montserrat" FontWeight="Bold
 
                 </Grid>
 
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0">
+                    <Border CornerRadius="10,10,10,10" Background="White" Margin="0,0,20,0">
+                        <Border.Effect>
+                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2"/>
+                        </Border.Effect>
+                        <StackPanel>
+                            <Button Height="50" Width="220" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonActiv">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="Button">
+                                                    <Border x:Name="ContentBorder" Background="Transparent" CornerRadius="10" >
+                                                        <Grid>
+                                                            <StackPanel Orientation="Horizontal" Margin="5,0,5,0">
+                                                                <Image Source="/Assets/Home/Frame 3.png" Margin="5,3,0,3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                                <Label Content="Activation Win" FontFamily="Poppins" VerticalAlignment="Center" FontSize="18" />
+                                                            </StackPanel>
+                                                        </Grid>
+                                                    </Border>
+                                                    <ControlTemplate.Triggers>
+                                                        <Trigger Property="IsMouseOver" Value="True">
+                                                            <Setter TargetName="ContentBorder" Property="Background" Value="#60CDFF" />
+                                                        </Trigger>
+                                                    </ControlTemplate.Triggers>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                            <ProgressBar x:Name="progressBar" Height="5" Visibility="Collapsed" Foreground="#FF6CCB5F"
+ Background="#FF393D1B"/>
+                        </StackPanel>
+                      
+                    </Border>
 
+                    <Border CornerRadius="10,10,10,10" Background="White" Margin="0,0,20,0">
+                        <Border.Effect>
+                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2"/>
+                        </Border.Effect>
+                        <Button x:Name="Buttonc" Height="50" Width="220" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonActiv2">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border x:Name="ContentBorder" Background="Transparent" CornerRadius="10" >
+                                                    <Grid>
+                                                        <StackPanel Orientation="Horizontal" Margin="5,0,5,0">
+                                                            <Image Source="/Assets/Home/Frame 2.png" Margin="5,3,0,3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                            <Label Content="Activation Adobe" FontFamily="Poppins" VerticalAlignment="Center" FontSize="18" />
+                                                        </StackPanel>
+                                                    </Grid>
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter TargetName="ContentBorder" Property="Background" Value="#60CDFF" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Border>
+
+                    <Border CornerRadius="10,10,10,10" Background="White">
+                        <Border.Effect>
+                            <DropShadowEffect Color="Gray" Direction="0" BlurRadius="50" ShadowDepth="1" Opacity="0.2"/>
+                        </Border.Effect>
+                        <Button x:Name="Buttonr" Height="50" Width="220" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonActiv3">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border x:Name="ContentBorder" Background="Transparent" CornerRadius="10" >
+                                                    <Grid>
+                                                        <StackPanel Orientation="Horizontal" Margin="5,0,5,0">
+                                                            <Image Source="/Assets/Home/Frame 1.png" Margin="5,3,0,3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                                            <Label Content="Activation VM" FontFamily="Poppins" VerticalAlignment="Center" FontSize="18" />
+                                                        </StackPanel>
+                                                    </Grid>
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter TargetName="ContentBorder" Property="Background" Value="#60CDFF" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </Border>
+                </StackPanel>
 
 
             </StackPanel>

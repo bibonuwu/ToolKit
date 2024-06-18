@@ -3,18 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WPFUIKitProfessional.Pages.Loading;
 
 namespace WPFUIKitProfessional.Pages
@@ -3227,6 +3220,63 @@ namespace WPFUIKitProfessional.Pages
             this.Bord19.Background = new SolidColorBrush(Color.FromArgb(byte.MaxValue, 108, 203, 95));
         }
 
+        private async void ButtonActiv(object sender, RoutedEventArgs e)
+        {
+            this.progressBar.Visibility = Visibility.Visible;
+            this.progressBar.IsIndeterminate = true;
+            await Task.Run((Action)(() =>
+            {
+                ProcessStartInfo processStartInfo = new ProcessStartInfo()
+                {
+                    FileName = "powershell.exe",
+                    Arguments = "irm https://massgrave.dev/get | iex",
+                    CreateNoWindow = true,
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true
+                };
+                using (Process process = new Process()
+                {
+                    StartInfo = processStartInfo
+                })
+                {
+                    process.Start();
+                    process.WaitForExit();
+                }
+            }));
+            this.progressBar.Visibility = Visibility.Collapsed;
+        }
 
+        private void ButtonActiv2(object sender, RoutedEventArgs e)
+        {
+            string fileName = "https://drive.google.com/file/d/1XovreMHh2Xd3bugVRl3H5EBUH6fagwFH/view?usp=drive_link";
+            try
+            {
+                Process.Start(new ProcessStartInfo(fileName)
+                {
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                int num = (int)System.Windows.MessageBox.Show("Не удалось открыть ссылку: " + ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Hand);
+            }
+        }
+
+        private void ButtonActiv3(object sender, RoutedEventArgs e)
+        {
+            string fileName = "https://gist.github.com/PurpleVibe32/1e9b30754ff18d69ad48155ed29d83de";
+            try
+            {
+                Process.Start(new ProcessStartInfo(fileName)
+                {
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                int num = (int)System.Windows.MessageBox.Show("Не удалось открыть ссылку: " + ex.Message, "Ошибка", MessageBoxButton.OK, MessageBoxImage.Hand);
+            }
+        }
     }
 }

@@ -7,7 +7,7 @@
          xmlns:gif="http://wpfanimatedgif.codeplex.com"
         
         mc:Ignorable="d" x:Name="home" 
-        Title="Windows Pro" Height="720" Width="1100"
+        Title="ToolKit" Height="720" Width="1100"
         WindowStartupLocation="CenterScreen" WindowStyle="None"
         Background="Transparent" AllowsTransparency="True"
         ResizeMode="NoResize" WindowState="Normal" FontFamily="Poppins">
@@ -44,7 +44,7 @@
                         <RadioButton x:Name="rdAnalytics" Content="Analytics" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource analytics}" Margin="0 1 0 1" Click="rdAnalytics_Click"/>
                         <RadioButton x:Name="rdMessages" Content="Messages" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource messages}" Click="rdMessages_Click"/>
                         <RadioButton x:Name="rdCollections" Content="Collections" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource collections}" Margin="0 1 0 1" Click="rdCollections_Click"/>
-                        <RadioButton x:Name="rdUsers" Content="Zip Soon..." Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource users}" Click="rdUsers_Click"/>
+                        <RadioButton x:Name="rdUsers" Content="About Us" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource users}" Click="rdUsers_Click"/>
 
 
 
@@ -247,6 +247,7 @@ HeadersVisibility="Column" GridLinesVisibility="Vertical" CanUserAddRows="False"
                         </Button.Style>
                     </Button>
                     <Button x:Name="btnMinimize" Style="{DynamicResource IconButtonsStyle}" Content="{DynamicResource minimize}" Click="btnMinimize_Click"/>
+             
                 </StackPanel>
                 <!-- End: Button Close | Restore | Minimize -->
 

@@ -118,6 +118,7 @@
     </Compile>
     <Compile Include="Pages\Loading\GifWindow.xaml.cs">
       <DependentUpon>GifWindow.xaml</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Pages\Messages.xaml.cs">
       <DependentUpon>Messages.xaml</DependentUpon>
@@ -128,6 +129,7 @@
     <Page Include="Assets\Icons\Icons.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -156,6 +158,7 @@
     <Page Include="Pages\Loading\GifWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Page>
     <Page Include="Pages\Messages.xaml">
       <SubType>Designer</SubType>
@@ -170,10 +173,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Styles\RadioButtonStyle.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Themes\DarkTheme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -210,7 +209,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Icons\Logo.png" />
+    <Resource Include="Assets\Icons\Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="logotip.gif">
@@ -218,10 +219,14 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Home\Win.png" />
+    <Resource Include="Assets\Home\Win.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\Home\Backgrond.jpg" />
+    <Resource Include="Assets\Home\Backgrond.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Home\backvidio.mp4">
@@ -272,43 +277,106 @@
     <Resource Include="Assets\Home\V2\frame 6.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Assets\Home\V3\frame 1.png" />
-    <Resource Include="Assets\Home\V3\frame 2.png" />
-    <Resource Include="Assets\Home\V3\frame 3.png" />
-    <Resource Include="Assets\Home\V3\frame 5.png" />
-    <Resource Include="Assets\Home\V3\frame 60.png" />
-    <Resource Include="Assets\Home\V3\frame 65.png" />
-    <Resource Include="Assets\Home\V3\frame 66.png" />
-    <Resource Include="Assets\Home\V3\frame 9.png" />
-    <Resource Include="Assets\Home\V3\group 10.png" />
-    <Resource Include="Assets\Home\V3\group 13.png" />
-    <Resource Include="Assets\Home\V3\group 15.png" />
-    <Resource Include="Assets\Home\V3\group 16.png" />
-    <Resource Include="Assets\Home\V3\group 25.png" />
-    <Resource Include="Assets\Home\V3\group 26.png" />
-    <Resource Include="Assets\Home\V3\group 30.png" />
-    <Resource Include="Assets\Home\V3\group 40.png" />
-    <Resource Include="Assets\Home\V3\group 41.png" />
-    <Resource Include="Assets\Home\V3\group 42.png" />
-    <Resource Include="Assets\Home\V3\group 43.png" />
-    <Resource Include="Assets\Home\V3\group 47.png" />
-    <Resource Include="Assets\Home\V3\group 52.png" />
-    <Resource Include="Assets\Home\V3\group 56.png" />
-    <Resource Include="Assets\Home\V3\group 58.png" />
-    <Resource Include="Assets\Home\V3\internet.ico" />
-    <Resource Include="Assets\Home\V3\memory slot.ico" />
-    <Resource Include="Assets\Home\V3\monitor.ico" />
-    <Resource Include="Assets\Home\V3\privacy policy.ico" />
-    <Resource Include="Assets\Home\V3\processor.ico" />
-    <Resource Include="Assets\Home\V3\save.ico" />
-    <Resource Include="Assets\Home\V3\taskbar.ico" />
-    <Resource Include="Assets\Home\V3\time.ico" />
-    <Resource Include="Assets\Home\V3\video card.ico" />
-    <Resource Include="Assets\Home\V3\website.ico" />
-    <Resource Include="Assets\Home\V3\wi-fi.ico" />
-    <Resource Include="Assets\Home\V3\windows 10 personalization.ico" />
-    <Resource Include="Assets\Home\V3\windows 10.ico" />
+    <Resource Include="Assets\Home\V3\frame 1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 60.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 65.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 66.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\frame 9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 25.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 26.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 40.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 41.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 42.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 43.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 47.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 52.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 56.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V3\group 58.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Pages\leoding.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\User\Frame 3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\Frame 1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\Frame 2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\Frame 3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Content Include="Dark.jpg">
@@ -317,38 +385,102 @@
     <Content Include="White.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Assets\Home\V1\1.png" />
-    <Resource Include="Assets\Home\V1\10.png" />
-    <Resource Include="Assets\Home\V1\11.png" />
-    <Resource Include="Assets\Home\V1\12.png" />
-    <Resource Include="Assets\Home\V1\13.png" />
-    <Resource Include="Assets\Home\V1\14.png" />
-    <Resource Include="Assets\Home\V1\15.png" />
-    <Resource Include="Assets\Home\V1\16.png" />
-    <Resource Include="Assets\Home\V1\17.png" />
-    <Resource Include="Assets\Home\V1\18.png" />
-    <Resource Include="Assets\Home\V1\19.png" />
-    <Resource Include="Assets\Home\V1\2.png" />
-    <Resource Include="Assets\Home\V1\20.png" />
-    <Resource Include="Assets\Home\V1\21.png" />
-    <Resource Include="Assets\Home\V1\22.png" />
-    <Resource Include="Assets\Home\V1\23.png" />
-    <Resource Include="Assets\Home\V1\26.png" />
-    <Resource Include="Assets\Home\V1\27.png" />
-    <Resource Include="Assets\Home\V1\28.png" />
-    <Resource Include="Assets\Home\V1\29.png" />
-    <Resource Include="Assets\Home\V1\3.png" />
-    <Resource Include="Assets\Home\V1\30.png" />
-    <Resource Include="Assets\Home\V1\31.png" />
-    <Resource Include="Assets\Home\V1\32.png" />
-    <Resource Include="Assets\Home\V1\4.png" />
-    <Resource Include="Assets\Home\V1\5.png" />
-    <Resource Include="Assets\Home\V1\6.png" />
-    <Resource Include="Assets\Home\V1\7.png" />
-    <Resource Include="Assets\Home\V1\8.png" />
-    <Resource Include="Assets\Home\V1\9.png" />
-    <Resource Include="Assets\Home\Xback.jpg" />
-    <Resource Include="Assets\Home\Rectangle.jpg" />
+    <Resource Include="Assets\Home\V1\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\18.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\19.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\21.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\22.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\23.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\26.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\27.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\28.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\29.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\31.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\V1\9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\Xback.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Home\Rectangle.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

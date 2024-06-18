@@ -9,6 +9,6 @@
       Title="Messages" FontFamily="Poppins">
 
     <Border CornerRadius="8" Background="#FFD3F9D8">
-        <Label Content="Messages" FontSize="50" FontWeight="Bold" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Content="Soon..." FontSize="50" FontWeight="Bold" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Border>
 </Page>
