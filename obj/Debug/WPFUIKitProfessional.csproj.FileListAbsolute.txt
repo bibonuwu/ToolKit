@@ -30,12 +30,6 @@ C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Ana
 C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Collections.baml
 C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Messages.baml
 C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Users.baml
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe.config
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.pdb
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\WpfAnimatedGif.dll
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\WpfAnimatedGif.pdb
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\WpfAnimatedGif.xml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.AssemblyReference.cache
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Assets\Icons\Icons.baml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Styles\ButtonStyle.baml
@@ -48,8 +42,6 @@ C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Home.g.c
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.g.cs
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Users.g.cs
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\App.g.cs
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_MarkupCompile.cache
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_MarkupCompile.lref
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\App.baml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\MainWindow.baml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.baml
@@ -57,15 +49,11 @@ C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Collecti
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Home.baml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.baml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Users.baml
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.g.resources
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.Properties.Resources.resources
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.GenerateResource.cache
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.CoreCompileInputs.cache
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKit.A27DEA20.Up2Date
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.exe
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.pdb
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\Assets\Home\backvidio.mp4
-C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_Content.g.cs
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\Dark.jpg
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\White.jpg
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Pages\Loading\GifWindow.g.cs
@@ -92,3 +80,12 @@ C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\AForge.Video.D
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\System.Drawing.Common.pdb
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\System.Drawing.Common.xml
 C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\Pages\Loading\GifWindow.xaml.cs
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\Tool Kit.exe.config
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\Tool Kit.exe
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\bin\Debug\Tool Kit.pdb
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Tool Kit_Content.g.cs
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Tool Kit_MarkupCompile.cache
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Tool Kit_MarkupCompile.lref
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Tool Kit.g.resources
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Tool Kit.exe
+C:\Users\zzz\Desktop\AA\qqqqq\WPFUIKitProfessional-main\obj\Debug\Tool Kit.pdb

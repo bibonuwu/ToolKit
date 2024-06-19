@@ -7,6 +7,7 @@ namespace WPFUIKitProfessional.Pages.Loading
     /// </summary>
     public partial class GifWindow : Window
     {
+   
         public GifWindow()
         {
             InitializeComponent();

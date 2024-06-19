@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUIKitProfessional", "WPFUIKitProfessional.csproj", "{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Tool Kit Installer", "..\Tool Kit Installer\Tool Kit Installer.vdproj", "{A70B8981-0CCB-4957-97CE-9A2720F879CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70B8981-0CCB-4957-97CE-9A2720F879CB}.Debug|Any CPU.ActiveCfg = Debug
+		{A70B8981-0CCB-4957-97CE-9A2720F879CB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

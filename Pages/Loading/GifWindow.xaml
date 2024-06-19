@@ -7,14 +7,26 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      
         WindowState="Normal"
         Title="loading..."
-        Height="450"
+        Height="200"
         Width="450"
         ResizeMode="NoResize"
-        Background="#FFD3F9D8">
+        Background="#FFD3F9D8" Icon="/Assets/Icons/IconToolKit.ico">
+    <Window.Resources>
+        <Storyboard x:Key="ProgressBarAnimation" TargetProperty="Value" TargetName="MyProgressBar">
+            <DoubleAnimation From="0" To="100" Duration="0:0:8" />
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource ProgressBarAnimation}" />
+        </EventTrigger>
+    </Window.Triggers>
     <Grid>
-        <Image x:Name="AnimatedGif" gif:ImageBehavior.AnimatedSource="/Pages/leoding.gif" />
+        <Image Source="/Assets/Icons/IconToolKit.ico" VerticalAlignment="Center" HorizontalAlignment="Center" Width="59" Margin="0,0,0,60"></Image>
+        <Label Content="Loading..." FontSize="18" FontFamily="Montserrat" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0"/>
+        <ProgressBar x:Name="MyProgressBar" HorizontalAlignment="Center" VerticalAlignment="Center" Width="400" Height="10" Foreground="#FF2B8A3E" Margin="0,80,0,0" />
     </Grid>
 </Window>

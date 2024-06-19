@@ -52,7 +52,7 @@ namespace WPFUIKitProfessional.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFUIKitProfessional;component/pages/analytics.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tool Kit;component/pages/analytics.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Pages\Analytics.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
