@@ -3249,7 +3249,7 @@ namespace WPFUIKitProfessional.Pages
 
         private void ButtonActiv2(object sender, RoutedEventArgs e)
         {
-            string fileName = "https://drive.google.com/file/d/1XovreMHh2Xd3bugVRl3H5EBUH6fagwFH/view?usp=drive_link";
+            string fileName = "https://www.cybermania.ws/apps/genp/";
             try
             {
                 Process.Start(new ProcessStartInfo(fileName)

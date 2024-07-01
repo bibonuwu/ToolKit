@@ -1,68 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\",
+  "WorkspaceRootPath": "C:\\Users\\bibon\\Desktop\\ToolKit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\zzz\\desktop\\aa\\qqqqq\\wpfuikitprofessional-main\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\loading\\gifwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\loading\\gifwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\bibon\\desktop\\toolkit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\loading\\gifwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\loading\\gifwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\analytics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\analytics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\messages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\messages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\collections.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\collections.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WPFUIKitProfessional||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\collections.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\pages\\collections.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\collections.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\pages\\messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\zzz\\desktop\\aa\\qqqqq\\wpfuikitprofessional-main\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\pages\\analytics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\analytics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,198 +38,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwCAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:24:46.735Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Home.xaml",
-              "RelativeDocumentMoniker": "Pages\\Home.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Home.xaml",
-              "RelativeToolTip": "Pages\\Home.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T06:36:18.019Z",
-              "EditorCaption": ""
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Home.xaml.cs",
+              "RelativeToolTip": "Pages\\Home.xaml.cs",
+              "ViewState": "AQIAAKAMAAAAAAAAAADgv7MMAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T16:49:28.183Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T05:36:23.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Home.xaml",
+              "RelativeDocumentMoniker": "Pages\\Home.xaml",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Home.xaml",
+              "RelativeToolTip": "Pages\\Home.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-11T13:26:43.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GifWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Loading\\GifWindow.xaml",
-              "RelativeDocumentMoniker": "Pages\\Loading\\GifWindow.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Loading\\GifWindow.xaml",
-              "RelativeToolTip": "Pages\\Loading\\GifWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T13:50:17.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T16:49:11.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GifWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Loading\\GifWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Loading\\GifWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Loading\\GifWindow.xaml.cs",
-              "RelativeToolTip": "Pages\\Loading\\GifWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:50:19.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Users.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Users.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Users.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Users.xaml.cs",
-              "RelativeToolTip": "Pages\\Users.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:49:22.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Messages.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Messages.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Messages.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Messages.xaml.cs",
-              "RelativeToolTip": "Pages\\Messages.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:49:45.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Home.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Home.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Home.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Home.xaml.cs",
-              "RelativeToolTip": "Pages\\Home.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:49:52.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "Collections.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Collections.xaml",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Collections.xaml",
               "RelativeDocumentMoniker": "Pages\\Collections.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Collections.xaml",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Collections.xaml",
               "RelativeToolTip": "Pages\\Collections.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T06:36:15.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T16:49:10.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Messages.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Messages.xaml",
-              "RelativeDocumentMoniker": "Pages\\Messages.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Messages.xaml",
-              "RelativeToolTip": "Pages\\Messages.xaml",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T06:36:14.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Users.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Users.xaml",
-              "RelativeDocumentMoniker": "Pages\\Users.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Users.xaml",
-              "RelativeToolTip": "Pages\\Users.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T04:21:06.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Analytics.xaml",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Analytics.xaml",
-              "RelativeDocumentMoniker": "Pages\\Analytics.xaml",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Analytics.xaml",
-              "RelativeToolTip": "Pages\\Analytics.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-18T06:36:16.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T07:31:27.211Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Analytics.xaml",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Analytics.xaml",
+              "RelativeDocumentMoniker": "Pages\\Analytics.xaml",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Analytics.xaml",
+              "RelativeToolTip": "Pages\\Analytics.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-18T06:36:16.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Analytics.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Analytics.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Analytics.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Analytics.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Analytics.xaml.cs",
+              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Analytics.xaml.cs",
               "RelativeToolTip": "Pages\\Analytics.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:50:08.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Collections.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Collections.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Collections.xaml.cs",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\Pages\\Collections.xaml.cs",
-              "RelativeToolTip": "Pages\\Collections.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T13:50:01.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WPFUIKitProfessional",
-              "DocumentMoniker": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\WPFUIKitProfessional.csproj",
-              "RelativeDocumentMoniker": "WPFUIKitProfessional.csproj",
-              "ToolTip": "C:\\Users\\zzz\\Desktop\\AA\\qqqqq\\WPFUIKitProfessional-main\\WPFUIKitProfessional.csproj",
-              "RelativeToolTip": "WPFUIKitProfessional.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-19T04:43:20.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T13:50:08.55Z"
             }
           ]
         }

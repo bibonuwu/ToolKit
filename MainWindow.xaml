@@ -39,7 +39,7 @@
 
                     <StackPanel Grid.Row="1" Margin="0,0,0,145">
                         <RadioButton x:Name="rdHome" Content="Optimization Windows" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource home}" Margin="0 30 0 0" Click="rdHome_Click"/>
-                        <RadioButton x:Name="rdAnalytics" Content="Analytics" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource analytics}" Margin="0 1 0 1" Click="rdAnalytics_Click"/>
+                        <RadioButton x:Name="rdAnalytics" Content="Downloader" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource analytics}" Margin="0 1 0 1" Click="rdAnalytics_Click"/>
                         <RadioButton x:Name="rdMessages" Content="Messages" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource messages}" Click="rdMessages_Click"/>
                         <RadioButton x:Name="rdCollections" Content="Collections" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource collections}" Margin="0 1 0 1" Click="rdCollections_Click"/>
                         <RadioButton x:Name="rdUsers" Content="About Us" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource users}" Click="rdUsers_Click"/>
