@@ -1,3 +1,6 @@
-2024/07/01-16:21:40.423 4c8 Reusing MANIFEST C:\Users\bibon\Desktop\ToolKit\bin\Debug\Tool Kit.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
-2024/07/01-16:21:40.423 4c8 Recovering log #4
-2024/07/01-16:21:40.425 4c8 Reusing old log C:\Users\bibon\Desktop\ToolKit\bin\Debug\Tool Kit.exe.WebView2\EBWebView\Default\Session Storage/000004.log 
+2024/07/02-11:19:16.642 5690 Reusing MANIFEST C:\Users\bibon\Desktop\ToolKit\bin\Debug\Tool Kit.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
+2024/07/02-11:19:16.643 5690 Recovering log #4
+2024/07/02-11:19:16.645 5690 Reusing old log C:\Users\bibon\Desktop\ToolKit\bin\Debug\Tool Kit.exe.WebView2\EBWebView\Default\Session Storage/000004.log 
+2024/07/02-11:26:19.165 258c Level-0 table #8: started
+2024/07/02-11:26:19.170 258c Level-0 table #8: 31515 bytes OK
+2024/07/02-11:26:19.172 258c Delete type=0 #4

