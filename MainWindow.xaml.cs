@@ -43,6 +43,7 @@ namespace WPFUIKitProfessional
             // Queue the actions to be performed after the window is fully loaded
             this.Dispatcher.InvokeAsync(async () =>
             {
+                await Task.Delay(1000);
                 // Simulate button clicks with a delay in between
                 ShowWifiProfiles_Click(this, new RoutedEventArgs());
                 await Task.Delay(3000);
