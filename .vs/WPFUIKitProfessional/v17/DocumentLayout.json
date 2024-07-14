@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bibon\\Desktop\\ToolKit\\",
+  "WorkspaceRootPath": "C:\\Users\\uwu\\Desktop\\ToolKit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\bibon\\desktop\\toolkit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\uwu\\desktop\\toolkit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\uwu\\Desktop\\ToolKit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\bibon\\Desktop\\ToolKit\\pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\uwu\\Desktop\\ToolKit\\pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\analytics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Analytics.xaml",
-              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Analytics.xaml",
+              "DocumentMoniker": "C:\\Users\\uwu\\Desktop\\ToolKit\\Pages\\Analytics.xaml",
               "RelativeDocumentMoniker": "Pages\\Analytics.xaml",
-              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\Pages\\Analytics.xaml",
+              "ToolTip": "C:\\Users\\uwu\\Desktop\\ToolKit\\Pages\\Analytics.xaml",
               "RelativeToolTip": "Pages\\Analytics.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-01T11:28:18.39Z"
@@ -39,11 +39,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uwu\\Desktop\\ToolKit\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\uwu\\Desktop\\ToolKit\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAqwDMAAAA7AAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAuwKgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T10:24:46.735Z",
               "EditorCaption": ""
@@ -52,12 +52,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\uwu\\Desktop\\ToolKit\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\bibon\\Desktop\\ToolKit\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\uwu\\Desktop\\ToolKit\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-24T07:31:27.211Z"
+              "WhenOpened": "2024-06-24T07:31:27.211Z",
+              "EditorCaption": ""
             }
           ]
         }
